@@ -1,17 +1,20 @@
 #include "main.h"
 /**
- * print_alphabet - Prints the alphabet in lowercase
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
-
-void print_alphabet_x10(void);
+int main(void)
 {
-        char alpha;
+	char alex[] = "_putchar";
+	int c;
 
-        for (alpha = 'a'; alpha <= 'z'; alpha++)
-        {
-                _putchar(alpha);
-        }
-        _putchar('\n');
+	for c=0;c<;c++)
+
+	{
+		_putchar(alex[c]);
+		}
+	_putchar('\n');
+
+	return (0);
 }
