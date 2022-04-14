@@ -1,4 +1,4 @@
-#include "main:w.h"
+#include "main.h"
 /**
  * _isdigit - function that checks for uppercase character.
  * @c: the int for the paramaters of my function
