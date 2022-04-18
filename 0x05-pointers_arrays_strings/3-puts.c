@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _puts - a function that prints a string
- * @str: string input
- * Return: string
+ * _puts - print a string
+ * @str:pointer char
+ * return:void
  */
 void _puts(char *str)
 {
@@ -13,6 +13,6 @@ void _puts(char *str)
 	{
 		_putchar(str[i]);
 	}
-	_putchar('\n');
+_putchar('\n');
+return;
 }
-© 2022 G
