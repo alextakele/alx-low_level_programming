@@ -17,4 +17,3 @@ int _strlen(char *s)
 	}
 	return (sum);
 }
-© 2022 GitH
