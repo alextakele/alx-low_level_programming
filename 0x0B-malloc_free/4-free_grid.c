@@ -3,21 +3,20 @@
 #include <stdlib.h>
 
 /**
- * free_grid - frees a 2 dimensional grid previously created by
- * alloc_grid function.
- * @grid: matrix double pointer
- * @height: rows (pointer)
- *
- * Return: Nothing
+ * free_grid - Entry point
+ *@grid: rows of matrix
+ *@height: columns of string
+ * Return: a pointer to a 2 dimensional array of integers or null
  */
-
 void free_grid(int **grid, int height)
 {
 	int i;
+	int *p;
 
 	for (i = 0; i < height; i++)
 	{
-		free(*(grid + i));
+		p = grid[i];
+		free(p);
 	}
 	free(grid);
 }
