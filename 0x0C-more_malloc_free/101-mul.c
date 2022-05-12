@@ -24,16 +24,17 @@ int main(int argc, char *argv[])
 	if (num1==0 || num2==0)
 		print_str(err);
 	        exit(98);
+          }
+           result=num1*num2;
+           printf("%d\n",result);
+           return(0);
 }
-result=num1*num2;
-printf("%d\n",result);
-return(0);
-}
-void print_str(char *)
+void print_str(char *str)
 {
 	while(*str)
+	{
 		_putchar(*str)
 			str++;
-}
+	}
 }
 
