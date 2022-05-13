@@ -7,10 +7,10 @@ void print_str(char *);
 int main(int argc, char *argv[])
 {
 	long num1,num2,result;
-	char *err="Error\n";
+	/*char *err="Error\n";*/
 	if (argc != 3)
 	{
-		print_str(err);
+		printf("Error\n");
 		exit(98);
 	}
        num1=atoi(argv[1]);
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
        if (num1 == 0 || num2 == 0)
        {
 	
-        	print_str(err);
+        	printf("Error\n");
                 exit(98);
 	}
 	
