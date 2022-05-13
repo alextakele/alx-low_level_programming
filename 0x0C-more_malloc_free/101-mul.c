@@ -6,7 +6,7 @@ void print_str(char *);
 
 int main(int argc, char *argv[])
 {
-	long num1,num2,mul;
+	long num1,num2,result;
 	char *err="Error\n";
 	if (argc != 3)
 	{
@@ -21,9 +21,9 @@ int main(int argc, char *argv[])
         	print_str(err);
                 exit(98);
 	}
-	 
-	 mul=num1*num2;
-	 printf("%ld\n",mul);
+	
+	 result=num1*num2;
+	 printf("%ld\n",result);
 	 return (0); 
 }
 void print_str(char *str)
