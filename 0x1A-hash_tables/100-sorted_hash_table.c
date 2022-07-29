@@ -6,6 +6,7 @@
  *
  * Return: pointer to the hash table created, or NULL if malloc failed.
  */
+
 shash_table_t *shash_table_create(unsigned long int size)
 {
 	unsigned int i = 0;
